@@ -1,0 +1,47 @@
+(THESE ARE NOTES TO SELF ABOUT GAME PRODUCTION.)
+(I'm putting them in here for accessibility.)
+
+each card:
+name
+health (restored after each fight)
+attack (set amount)
+
+default max attributes
+happiness 5
+hunger 5
+exhaustion 5
+
+ability (description blurb that makes it unique)
+SCRAP skill (something it can activate during battle - maybe if have time)
+
+ability ideas: 
+1. can keep fighting at low happiness, but drains faster in hunger/exhaustion
+2. deals massive damage, but has a chance to also hurt allies
+3. extremely resilient in hunger/exhaustion, but very low default health
+4. will double food/rest time, but extremely picky with happiness, so if you upset it, it kills itself.
+5. high damage and health, but gets hungry very fast. will cannibalize other party members if it has to.
+6. nothing special about this one. just keep it happy and well-fed.
+
+start with 10 coins
+
+order of scenes
+first scene is card select
+second scene is 1st battle (easy)
+third scene is shop
+
+shop: can do up to 2 actions of 4 offered between:
+- feed: can feed your cards. 1 coin per hunger level.
+- rest: can rest your cards. free, but you must wait 10 minutes in-game for each level.
+- upgrade: can raise atk/level of each card. 1 coin per upgrade. it has a chance of failing. failure lowers your card's happiness by 1.
+- roll: roll a new card. 5 coins per roll. if you have 4 cards already, you cannot roll.
+
+each time you raise a card's hunger or exhaustion back to 5, it gains back a happiness point.
+
+if a card is unhappy, it has a 50% chance to refuse to battle in a fight.
+if it is hungry or exhausted, it has a 50% chance of dying at the end of a battle. If it's both, it becomes a 75% chance.
+
+cards lose happiness every time they're hit. additionally, if they're hungry or exhausted, they lose an extra point at the end of the fight. happiness is hardest to maintain so saki is broken and tsukasa sucks basically
+
+obtaining coins: each monster gives you a set amount of coins for its defeat. additionally, excess damage converts to bonus coints inscryption-style. why am I making fear and hunger 3 rn
+
+battle oh my god: 2 actions per turn. actions can either be fight (active card) or switch active card with another card. fight by clicking active card, switch by clicking any other card (it swaps them) Basically genshin tcg DONT COMPLICATE THIS PLEASEEEEEEEEEEE

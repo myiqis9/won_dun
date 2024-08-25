@@ -1,0 +1,15 @@
+/*********************************************
+
+Using CSS to load my font!
+I used this as help:
+https://stackoverflow.com/questions/51217147/how-to-use-a-local-font-in-phaser-3?newreg=8bfdb0eb85f341c7ad97ee9a29fc91ad 
+
+**********************************************/
+
+
+@font-face {
+    font-family: pstart;
+    src: url('fonts/presstart.ttf');
+    font-weight:400;
+    font-weight:normal;
+}
